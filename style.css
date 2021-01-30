@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
-
+*root {
+  margin: 0;
+  padding: 0;
+}
 
 .container {
-background-color: #c7c7c7;
+background-color: #e7e7e7;
+width: 100%;
 }
 .head {
     background-color: #f4f4f4;
@@ -10,8 +14,7 @@ background-color: #c7c7c7;
     text-align: center;
     font-family: 'Quicksand', sans-serif;
     border: solid 1px rgb(218, 218, 218);
-    width: 100%;
-   
+    margin: auto; 
 }
 
   
@@ -33,7 +36,7 @@ background-color: #c7c7c7;
     height: 160px;
     width: 160px;
     margin: 10px;
-    border: solid 3px rgb(155, 153, 153);
+    border: solid 1px rgb(83, 83, 83);
     background: white;
   
   }
